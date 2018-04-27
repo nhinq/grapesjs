@@ -1,6 +1,6 @@
 module.exports = {
   // Style prefix
-  stylePrefix: 'gjs-',
+  stylePrefix: 'novaio-',
 
   // HTML string or object of components
   components: '',

@@ -7,8 +7,8 @@ let plugins = [];
 module.exports = env => {
 
   const output = {
-    filename: './dist/grapes.min.js',
-    library: 'grapesjs',
+    filename: './dist/novaio.min.js',
+    library: 'novaio',
     libraryTarget: 'umd',
   };
 
@@ -19,7 +19,7 @@ module.exports = env => {
       new webpack.BannerPlugin(`${pkg.name} - ${pkg.version}`),
     ];
   } else if (env == 'dev') {
-    output.filename = './dist/grapes.js';
+    output.filename = './dist/novaio.js';
   } else {
     const index = 'index.html';
     const indexDev = `_${index}`;
